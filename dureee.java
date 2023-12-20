@@ -1,4 +1,4 @@
-package Cryptage;
+package HaveFun;
 
 import java.awt.EventQueue;
 
