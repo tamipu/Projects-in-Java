@@ -1,21 +1,14 @@
 package HaveFun;
 
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import java.awt.Color;
 import java.awt.Font;
-
-import javax.swing.JLabel;
-import javax.swing.JButton;
 import java.awt.Component;
 import java.awt.Dimension;
-
 import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.JTextField;
 
 public class dureee extends JFrame implements ActionListener {
 
@@ -175,7 +168,6 @@ public class dureee extends JFrame implements ActionListener {
 		btnIncreaseSecondes.setFont(new Font("Lucida Grande", Font.PLAIN, 55));
 		btnIncreaseSecondes.setFocusable(false);
 		btnIncreaseSecondes.addActionListener(this);
-		;
 		mPanel.add(btnIncreaseSecondes);
 
 		txtSeconds = new JTextField();
