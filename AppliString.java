@@ -227,9 +227,7 @@ public class AppliString extends JFrame implements ActionListener {
 
 			if (currenti >= 0 && currenti < s.length() && currentj >= 0 && currentj < s.length()
 					&& currenti <= currentj) {
-				textFieldChar.setText(String.valueOf(s.charAt(currenti)));
-				textFieldSubi.setText(s.substring(currenti));
-				textFieldsubij.setText(s.substring(currenti, currentj));
+				textFieldsubij.setText(s.substring(currenti-1, currentj));
 			}
 		}
 
@@ -241,8 +239,6 @@ public class AppliString extends JFrame implements ActionListener {
 			if (currenti >= 0 && currenti < s.length() && currentj >= 0 && currentj < s.length()
 					&& currenti <= currentj) {
 				textFieldintj.setText(String.valueOf(currentj - 1));
-				textFieldChar.setText(String.valueOf(s.charAt(currenti)));
-				textFieldSubi.setText(s.substring(currenti));
 				textFieldsubij.setText(s.substring(currenti, currentj));
 			}
 		}
